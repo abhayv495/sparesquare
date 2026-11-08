@@ -49,29 +49,29 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/RankedSubmitScoreHandler.cs" />
-    <Compile Include="Assets/Script/MainMenuHandler.cs" />
     <Compile Include="Assets/GoogleSignIn/Future.cs" />
     <Compile Include="Assets/SignInSample/SigninSampleScript.cs" />
     <Compile Include="Assets/Script/PatternData.cs" />
+    <Compile Include="Assets/Script/LeaderboardController.cs" />
+    <Compile Include="Assets/RankedAccountController.cs" />
     <Compile Include="Assets/GoogleSignIn/Impl/BaseObject.cs" />
+    <Compile Include="Assets/Script/MainMenuController.cs" />
     <Compile Include="Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs" />
     <Compile Include="Assets/GoogleSignIn/Impl/SignInHelperObject.cs" />
-    <Compile Include="Assets/Script/Board.cs" />
+    <Compile Include="Assets/Script/PuzzleGameController.cs" />
     <Compile Include="Assets/GoogleSignIn/GoogleSignIn.cs" />
     <Compile Include="Assets/DatabaseTesting.cs" />
     <Compile Include="Assets/Script/BackgroundTile.cs" />
-    <Compile Include="Assets/LoginApiHandler.cs" />
+    <Compile Include="Assets/Script/PuzzleBoard.cs" />
     <Compile Include="Assets/Script/Score.cs" />
+    <Compile Include="Assets/Script/PatternHandler.cs" />
     <Compile Include="Assets/Script/Dot.cs" />
+    <Compile Include="Assets/RankedScoreService.cs" />
     <Compile Include="Assets/GoogleSignIn/GoogleSignInStatusCode.cs" />
     <Compile Include="Assets/GoogleSignIn/GoogleSignInUser.cs" />
     <Compile Include="Assets/GoogleSignIn/GoogleSignInConfiguration.cs" />
-    <Compile Include="Assets/Script/LeaderBoardHandler.cs" />
-    <Compile Include="Assets/Script/GameManagerHandler.cs" />
     <Compile Include="Assets/Script/UnrankedScoreDataHandler.cs" />
     <Compile Include="Assets/GoogleSignIn/Impl/NativeFuture.cs" />
-    <Compile Include="Assets/Script/PattenHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/GUI/Montserrat/README.txt" />

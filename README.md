@@ -21,24 +21,35 @@ SpareSquare is a Unity puzzle game for Android. Players rotate groups of four ti
 1. Install Unity `6000.3.8f1` with Android Build Support, including the Android SDK and NDK and OpenJDK modules.
 2. Clone this repository and open its root folder in Unity Hub.
 3. Let Unity resolve packages and import assets.
-4. Open `Assets/Scenes/MainMenu 1.unity` to work on the active menu scene. Gameplay scenes are in `Assets/Scenes/` and `Assets/Scenes/First Theme Blue/`.
-5. Use **File → Build Profiles** (or **Build Settings** in older Unity workflows) to select Android and configure the app before building.
+4. Open `Assets/Scenes/First Theme Blue/MainMenu.unity` to work on the active menu scene. The gameplay scenes are `Assets/Scenes/First Theme Blue/UnrankedGame.unity` and `Assets/Scenes/First Theme Blue/RankedGame.unity`.
+5. Use **File → Build Profiles** to select Android and configure the app before building.
 
 ## Project layout
 
-- `Assets/Scenes/` — menu and gameplay scenes, including ranked and unranked layouts.
-- `Assets/Script/` — board setup, tile/pattern interaction, scoring, menus, and leaderboard UI logic.
+- `Assets/Scenes/First Theme Blue/` — active menu, unranked, and ranked scenes.
+- `Assets/Script/` — puzzle board, tile interaction, game flow, menu, leaderboard, and local score scripts. Main components include `PuzzleBoard`, `PuzzleGameController`, `MainMenuController`, and `LeaderboardController`.
+- `Assets/RankedAccountController.cs` — Google sign-in and ranked account API integration.
+- `Assets/RankedScoreService.cs` — ranked score submission and leaderboard retrieval.
 - `Assets/Prefab/` — reusable game and score UI prefabs.
 - `Assets/GUI/` — interface artwork and fonts.
 - `Assets/GoogleSignIn/` — Google Sign-In plugin and Android support files.
+- `Assets/google-services.json` — Firebase/Google Services configuration used for Android.
 - `Packages/manifest.json` — Unity package dependencies.
 
 ## Service configuration
 
-Ranked play depends on Google Sign-In and the project’s score/account API. Configure the Google web client ID and API connection settings on the corresponding scene components in the Unity Inspector, and provide any required Android OAuth/package signing configuration. Do not commit private API tokens or signing credentials to the repository.
+Ranked play depends on Google Sign-In and the project’s score/account API. Set the Google web client ID and API connection settings on the corresponding components in the Unity Inspector, and configure the Android OAuth client with the app’s package name and signing certificate.
+
+Do not put private service credentials, service account keys, or privileged server API tokens in a Unity client build. Store server credentials on the backend and have the game call the backend.
+
+### Firebase API key and GitHub secret scanning
+
+The API key in `Assets/google-services.json` is normally a Firebase client identifier, not a private credential. Firebase API keys can be included in Android app configuration when they are restricted to the Firebase APIs the app uses. Keep Firebase Security Rules and App Check configured for the services that support them. Use separate, restricted keys for any non-Firebase Google Cloud APIs, and never include a service account private key or privileged backend token in this file.
+
+If GitHub flags this Firebase key, verify in Google Cloud Console that it is a Firebase-provisioned key with appropriate API restrictions. If it is used for other APIs or its purpose is uncertain, replace it and review usage before closing the alert. GitHub alerts must be closed manually after review; deleting the file from the latest commit does not remove it from Git history.
 
 Unranked scores and player preferences are stored locally with Unity `PlayerPrefs`.
 
 ## Notes
 
-The project contains sample scenes and plugin files alongside the game scenes. Check the Build Profiles scene list and Android player settings before creating a release build.
+The repository also contains duplicate and sample scenes that are not in the active Android build scene list. Review the Build Profiles scene list and Android player settings before creating a release build.

@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
-public class LoginApiHandler : MonoBehaviour
+public class RankedAccountController : MonoBehaviour
 {
 
     public GameObject PlayMenuPanel;
@@ -16,7 +16,7 @@ public class LoginApiHandler : MonoBehaviour
     public GameObject RankedGamePanel;
     public GameObject LoginsuccessfullyPanel;
     public GameObject rankedScorePrefab;
-    public GameObject rankedLeaderBoardContainer;
+    public GameObject rankedLeaderboardContainer;
 
     public string webClientId = "<your client id here>";
     private GoogleSignInConfiguration configuration;
@@ -70,7 +70,7 @@ public class LoginApiHandler : MonoBehaviour
             logoutButton.SetActive(true);
             PlayMenuPanel.SetActive(false) ;
             RankedGamePanel.SetActive(true);
-            MainMenuHandler.instance.RankedGameStart();
+            MainMenuController.instance.RankedGameStart();
         }
     }
     private void ConfigureGoogleSignIn(bool gameSignIn)
@@ -256,7 +256,7 @@ public class LoginApiHandler : MonoBehaviour
 
             for (int i = 0; i < userDatas.Count; i++)
             {
-                var rankedScore = Instantiate(rankedScorePrefab, rankedLeaderBoardContainer.transform);
+                var rankedScore = Instantiate(rankedScorePrefab, rankedLeaderboardContainer.transform);
                 rankedScore.transform.GetChild(0).gameObject.GetComponent<Text>().text = (i + 1).ToString();
                 rankedScore.transform.GetChild(1).gameObject.GetComponent<Text>().text = userDatas[i].username;
                 rankedScore.transform.GetChild(2).gameObject.GetComponent<Text>().text = ((float)userDatas[i].bayesian_average).ToString("#.##");

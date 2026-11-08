@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Linq;
 
-public class MainMenuHandler : MonoBehaviour
+public class MainMenuController : MonoBehaviour
 {
     public GameObject splashScreen, playMenu;
     public GameObject[] UnrankedLevel;
@@ -25,14 +25,14 @@ public class MainMenuHandler : MonoBehaviour
     public Text unrankedBestScoretill9;
 
     public GameObject unrankedScorePrefab;
-    public GameObject unrankedLeaderBoardContainer;
+    public GameObject unrankedLeaderboardContainer;
 
     public AudioSource backgroundMusic;
     public AudioSource clickMusic;
     public Slider audioSlider;
     public Text audioSliderTExt;
 
-    public static MainMenuHandler instance;
+    public static MainMenuController instance;
     void Start()
     {
         instance = this;
@@ -51,7 +51,7 @@ public class MainMenuHandler : MonoBehaviour
 
             for (int i = 0; i < scores.Length; i++)
             {
-                var unrankedScore = Instantiate(unrankedScorePrefab, unrankedLeaderBoardContainer.transform);
+                var unrankedScore = Instantiate(unrankedScorePrefab, unrankedLeaderboardContainer.transform);
                 unrankedScore.transform.GetChild(0).gameObject.GetComponent<Text>().text = scores[i].levelname;
                 unrankedScore.transform.GetChild(1).gameObject.GetComponent<Text>().text = scores[i].scoreValue.ToString();
                 unrankedScore.transform.GetChild(2).gameObject.GetComponent<Text>().text = scores[i].scoreDate;

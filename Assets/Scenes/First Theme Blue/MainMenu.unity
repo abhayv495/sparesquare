@@ -5516,7 +5516,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: RankedNextButton
         m_Mode: 1
         m_Arguments:
@@ -8357,7 +8357,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -10008,7 +10008,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectRankTimer
         m_Mode: 3
         m_Arguments:
@@ -10374,7 +10374,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: UnrankedNextButton
         m_Mode: 1
         m_Arguments:
@@ -10752,7 +10752,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: UnrankedPreviousButton
         m_Mode: 1
         m_Arguments:
@@ -12767,7 +12767,7 @@ MonoBehaviour:
   unrankedBestScoretill4: {fileID: 375177082}
   unrankedBestScoretill9: {fileID: 1037263381}
   unrankedScorePrefab: {fileID: 1540050128619977615, guid: 09cb4d15ad69bb846b9e66e38b148ee4, type: 3}
-  unrankedLeaderBoardContainer: {fileID: 6215789}
+  unrankedLeaderboardContainer: {fileID: 6215789}
   backgroundMusic: {fileID: 272221081}
   clickMusic: {fileID: 963194229}
   audioSlider: {fileID: 2040443704}
@@ -12885,7 +12885,7 @@ MonoBehaviour:
   RankedGamePanel: {fileID: 573614256}
   LoginsuccessfullyPanel: {fileID: 916601153}
   rankedScorePrefab: {fileID: 2300205841831944592, guid: 3538b7673f383a246a2f2eb331e9b3f5, type: 3}
-  rankedLeaderBoardContainer: {fileID: 712572147}
+  rankedLeaderboardContainer: {fileID: 712572147}
   webClientId: 459776891080-95li0fipb9ka79fdv897rbkm1gkrhdcc.apps.googleusercontent.com
   userNamePanel: {fileID: 264795284}
   loginPanel: {fileID: 372346731}
@@ -13810,7 +13810,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: LaunchScene
         m_Mode: 1
         m_Arguments:
@@ -14875,7 +14875,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 272221083}
-        m_TargetAssemblyTypeName: LoginApiHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: RankedAccountController, Assembly-CSharp
         m_MethodName: DeleteUserId
         m_Mode: 1
         m_Arguments:
@@ -15334,7 +15334,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: RankedPreviousButton
         m_Mode: 1
         m_Arguments:
@@ -16357,7 +16357,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221083}
-        m_TargetAssemblyTypeName: LoginApiHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: RankedAccountController, Assembly-CSharp
         m_MethodName: clickOnLoginButton
         m_Mode: 1
         m_Arguments:
@@ -20074,7 +20074,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: UnrankedNextButton
         m_Mode: 1
         m_Arguments:
@@ -23031,7 +23031,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectRankTimer
         m_Mode: 3
         m_Arguments:
@@ -24944,7 +24944,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -28019,7 +28019,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 272221083}
-        m_TargetAssemblyTypeName: LoginApiHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: RankedAccountController, Assembly-CSharp
         m_MethodName: CreateNewUser
         m_Mode: 1
         m_Arguments:
@@ -28285,7 +28285,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -37069,7 +37069,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: UnrankedPreviousButton
         m_Mode: 1
         m_Arguments:
@@ -39667,7 +39667,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: UnrankedGameStart
         m_Mode: 1
         m_Arguments:
@@ -39950,7 +39950,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectRankTimer
         m_Mode: 3
         m_Arguments:
@@ -46275,7 +46275,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221083}
-        m_TargetAssemblyTypeName: LoginApiHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: RankedAccountController, Assembly-CSharp
         m_MethodName: LogoutRanked
         m_Mode: 1
         m_Arguments:
@@ -48970,7 +48970,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: RankedNextButton
         m_Mode: 1
         m_Arguments:
@@ -52636,7 +52636,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: LaunchRankedScene
         m_Mode: 1
         m_Arguments:
@@ -59004,7 +59004,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -62068,7 +62068,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221083}
-        m_TargetAssemblyTypeName: LoginApiHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: RankedAccountController, Assembly-CSharp
         m_MethodName: LogoutRanked
         m_Mode: 1
         m_Arguments:
@@ -65282,7 +65282,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -70043,7 +70043,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221083}
-        m_TargetAssemblyTypeName: LoginApiHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: RankedAccountController, Assembly-CSharp
         m_MethodName: OnSignIn
         m_Mode: 1
         m_Arguments:
@@ -72802,7 +72802,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectRankTimer
         m_Mode: 3
         m_Arguments:
@@ -77125,7 +77125,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: RankedPreviousButton
         m_Mode: 1
         m_Arguments:
@@ -77654,7 +77654,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectRankTimer
         m_Mode: 3
         m_Arguments:
@@ -78540,7 +78540,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: RankedGameStart
         m_Mode: 1
         m_Arguments:
@@ -80753,7 +80753,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -81713,7 +81713,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: RankedGameStart
         m_Mode: 1
         m_Arguments:
@@ -83607,7 +83607,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectRankTimer
         m_Mode: 3
         m_Arguments:
@@ -84323,7 +84323,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -85304,7 +85304,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: LaunchScene
         m_Mode: 1
         m_Arguments:
@@ -89003,7 +89003,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectRankTimer
         m_Mode: 3
         m_Arguments:
@@ -93419,7 +93419,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -95969,7 +95969,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectRankTimer
         m_Mode: 3
         m_Arguments:
@@ -96570,7 +96570,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: OnAudioValueChange
         m_Mode: 1
         m_Arguments:

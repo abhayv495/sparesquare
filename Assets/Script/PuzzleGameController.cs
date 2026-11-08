@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameManagerHandler : MonoBehaviour
+public class PuzzleGameController : MonoBehaviour
 {
     private bool rotateSet, rotateButtonPressed;
     public GameObject[] currentSet;
@@ -26,7 +26,7 @@ public class GameManagerHandler : MonoBehaviour
     private int lastDisplayedSecond = int.MinValue;
     public Text currentScore;
     public int score;
-    public static GameManagerHandler instance;
+    public static PuzzleGameController instance;
 
     [Header("LeveData")]
     public int levelNumber;
@@ -226,7 +226,7 @@ public class GameManagerHandler : MonoBehaviour
     public void OnRankSubmitScore()
     {
         PlayerPrefs.SetInt("ScoreValue", score);
-        RankedSubmitScoreHandler.instance.SubmitScoreRanked();
+        RankedScoreService.instance.SubmitScoreRanked();
     }
 
     public void OnResumePress()
@@ -236,7 +236,7 @@ public class GameManagerHandler : MonoBehaviour
 
     }
 
-    #region LeaderBoard Unranked
+    #region Leaderboard Unranked
 
     public IEnumerable<ScoresData> GetHighScores()
     {

@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LeaderBoardHandler : MonoBehaviour
+public class LeaderboardController : MonoBehaviour
 {
     public GameObject unrankedScorePrefab;
-    public  GameManagerHandler gameManager;
+    public  PuzzleGameController gameManager;
 
     void Start()
     {

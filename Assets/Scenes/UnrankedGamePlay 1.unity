@@ -1045,7 +1045,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:
@@ -2397,7 +2397,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:
@@ -2984,7 +2984,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:
@@ -3080,7 +3080,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:
@@ -3968,7 +3968,7 @@ GameObject:
   - component: {fileID: 499433613}
   - component: {fileID: 499433612}
   m_Layer: 0
-  m_Name: GameManagerHandler
+  m_Name: PuzzleGameController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4278,7 +4278,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:
@@ -5643,7 +5643,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:
@@ -6914,7 +6914,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:
@@ -8446,7 +8446,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:
@@ -8616,7 +8616,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:
@@ -10523,7 +10523,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:
@@ -10747,7 +10747,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:
@@ -11718,7 +11718,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 499433612}
-        m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
         m_MethodName: LaunchScene
         m_Mode: 1
         m_Arguments:
@@ -12078,7 +12078,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:
@@ -12882,7 +12882,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 499433612}
-          m_TargetAssemblyTypeName: GameManagerHandler, Assembly-CSharp
+          m_TargetAssemblyTypeName: PuzzleGameController, Assembly-CSharp
           m_MethodName: CurrentSetAnchorPress
           m_Mode: 2
           m_Arguments:

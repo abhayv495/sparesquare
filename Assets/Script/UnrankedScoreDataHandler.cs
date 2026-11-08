@@ -4,7 +4,7 @@ using System.Collections.Generic;
 [Serializable]
 public class UnrankedScoreDataHandler
 {
-    //LeaderBoardData
+    //LeaderboardData
     public List<ScoresData> unrankedScores;
 
    public UnrankedScoreDataHandler()

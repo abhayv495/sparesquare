@@ -6,17 +6,17 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
-public class RankedSubmitScoreHandler : MonoBehaviour
+public class RankedScoreService : MonoBehaviour
 {
     public string API_URL;
     public string API_KEY;
     public string API_SECRET_TOKEN;
 
     private string userName;
-    public static RankedSubmitScoreHandler instance;
+    public static RankedScoreService instance;
 
     public GameObject rankedScorePrefab;
-    public GameObject rankedLeaderBoardContainer;
+    public GameObject rankedLeaderboardContainer;
     private UnityWebRequest CreateRequest(string path, string method)
     {
         var request = new UnityWebRequest(API_URL + path, method);
@@ -128,7 +128,7 @@ public class RankedSubmitScoreHandler : MonoBehaviour
 
             for (int i = 0; i < userDatas.Count; i++)
             {
-                var rankedScore = Instantiate(rankedScorePrefab, rankedLeaderBoardContainer.transform);
+                var rankedScore = Instantiate(rankedScorePrefab, rankedLeaderboardContainer.transform);
                 rankedScore.transform.GetChild(0).gameObject.GetComponent<Text>().text = (i + 1).ToString();
                 rankedScore.transform.GetChild(1).gameObject.GetComponent<Text>().text = userDatas[i].username;
                 rankedScore.transform.GetChild(2).gameObject.GetComponent<Text>().text = ((float)userDatas[i].bayesian_average).ToString("#.##");

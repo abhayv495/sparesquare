@@ -5561,7 +5561,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -7313,7 +7313,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: UnrankedNextButton
         m_Mode: 1
         m_Arguments:
@@ -7679,7 +7679,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: UnrankedPreviousButton
         m_Mode: 1
         m_Arguments:
@@ -9458,7 +9458,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: LaunchScene
         m_Mode: 1
         m_Arguments:
@@ -13486,7 +13486,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: UnrankedGameStart
         m_Mode: 1
         m_Arguments:
@@ -14087,7 +14087,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: UnrankedNextButton
         m_Mode: 1
         m_Arguments:
@@ -18080,7 +18080,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -20886,7 +20886,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -26522,7 +26522,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: UnrankedPreviousButton
         m_Mode: 1
         m_Arguments:
@@ -40927,7 +40927,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -45106,7 +45106,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -55017,7 +55017,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -57499,7 +57499,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:
@@ -58111,7 +58111,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: LaunchScene
         m_Mode: 1
         m_Arguments:
@@ -63718,7 +63718,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 272221080}
-        m_TargetAssemblyTypeName: MainMenuHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: SelectTimer
         m_Mode: 3
         m_Arguments:

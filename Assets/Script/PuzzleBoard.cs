@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Board : MonoBehaviour
+public class PuzzleBoard : MonoBehaviour
 {
     public int width;
     public int height;

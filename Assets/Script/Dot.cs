@@ -9,7 +9,7 @@ public class Dot : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHandler
     public int row;
     public int targetX;
     public int targetY;
-    private Board board;
+    private PuzzleBoard board;
 
     [Header("Swipe Stuff")]
     public float swipeAngle = 0;
@@ -45,7 +45,7 @@ public class Dot : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHandler
 
     void Start()
     {
-        board = GetComponentInParent<Board>();
+        board = GetComponentInParent<PuzzleBoard>();
         targetX = (int)transform.position.x;
         targetY = (int)transform.position.y;
         row = targetY;
@@ -131,7 +131,7 @@ public class Dot : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHandler
 
         if (rotationDrag == true)
         {
-            GameManagerHandler.instance.CurrentSetAnchorPress(gameObject);
+            PuzzleGameController.instance.CurrentSetAnchorPress(gameObject);
         }
 
     }
@@ -197,7 +197,7 @@ public class Dot : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHandler
                 }
             }
         }
-        GameManagerHandler manager = GameManagerHandler.instance;
+        PuzzleGameController manager = PuzzleGameController.instance;
         manager.CountScore(score - manager.score);
     }
 
@@ -218,7 +218,7 @@ public class Dot : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHandler
     private void CountMatchingAttributes(int columnA, int rowA, int sideA,
         int columnB, int rowB, int sideB)
     {
-        GameManagerHandler.instance.CountScore(
+        PuzzleGameController.instance.CountScore(
             MatchingAttributes(columnA, rowA, sideA, columnB, rowB, sideB));
     }
 

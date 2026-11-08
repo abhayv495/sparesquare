@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/First Theme Blue/MainMenu.unity
     guid: e6c177951b80a7447956cec5a4801316
   - enabled: 1
-    path: Assets/Scenes/First Theme Blue/UnrankedGamePlay.unity
+    path: Assets/Scenes/First Theme Blue/UnrankedGame.unity
     guid: a7e2ff1261ca9404e88b4ab7329f6762
   - enabled: 1
-    path: Assets/Scenes/First Theme Blue/Ranked.unity
+    path: Assets/Scenes/First Theme Blue/RankedGame.unity
     guid: ea2dc4a8a4b91c149b044d827784f7d8
   - enabled: 0
     path: Assets/SignInSample/MainScene.unity
