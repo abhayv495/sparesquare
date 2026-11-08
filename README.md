@@ -33,7 +33,6 @@ SpareSquare is a Unity puzzle game for Android. Players rotate groups of four ti
 - `Assets/Prefab/` — reusable game and score UI prefabs.
 - `Assets/GUI/` — interface artwork and fonts.
 - `Assets/GoogleSignIn/` — Google Sign-In plugin and Android support files.
-- `Assets/google-services.json` — Firebase/Google Services configuration used for Android.
 - `Packages/manifest.json` — Unity package dependencies.
 
 ## Service configuration
@@ -41,12 +40,6 @@ SpareSquare is a Unity puzzle game for Android. Players rotate groups of four ti
 Ranked play depends on Google Sign-In and the project’s score/account API. Set the Google web client ID and API connection settings on the corresponding components in the Unity Inspector, and configure the Android OAuth client with the app’s package name and signing certificate.
 
 Do not put private service credentials, service account keys, or privileged server API tokens in a Unity client build. Store server credentials on the backend and have the game call the backend.
-
-### Firebase API key and GitHub secret scanning
-
-The API key in `Assets/google-services.json` is normally a Firebase client identifier, not a private credential. Firebase API keys can be included in Android app configuration when they are restricted to the Firebase APIs the app uses. Keep Firebase Security Rules and App Check configured for the services that support them. Use separate, restricted keys for any non-Firebase Google Cloud APIs, and never include a service account private key or privileged backend token in this file.
-
-If GitHub flags this Firebase key, verify in Google Cloud Console that it is a Firebase-provisioned key with appropriate API restrictions. If it is used for other APIs or its purpose is uncertain, replace it and review usage before closing the alert. GitHub alerts must be closed manually after review; deleting the file from the latest commit does not remove it from Git history.
 
 Unranked scores and player preferences are stored locally with Unity `PlayerPrefs`.
 
