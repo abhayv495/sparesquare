@@ -94,7 +94,7 @@ public class MainMenuController : MonoBehaviour
     private void MoveLevel(bool ranked, int direction)
     {
         GameObject[] levels = ranked ? RankedLevel : UnrankedLevel;
-        int count = Mathf.Min(ranked ? 8 : 3, levels.Length);
+        int count = levels.Length;
         if (count == 0) return;
         currentLevel = (currentLevel + direction + count) % count;
         ShowLevel(ranked);
