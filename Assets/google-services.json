@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "459776891080",
+    "project_id": "spare-squares",
+    "storage_bucket": "spare-squares.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459776891080:android:1085ac2797c239f74fedfd",
+        "android_client_info": {
+          "package_name": "com.Spare.SpareSquares"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459776891080-r1653uf5jq6nn4d9eva6j2dcbe9im1fp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Spare.SpareSquares",
+            "certificate_hash": "665ea379453bce636c537cec8111f12455afac3a"
+          }
+        },
+        {
+          "client_id": "459776891080-95li0fipb9ka79fdv897rbkm1gkrhdcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtPtObUg1UW9xUuvUJ8lSDNqgYC4pkjm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459776891080-95li0fipb9ka79fdv897rbkm1gkrhdcc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "459776891080-6av5cku6vqc7gfefqeofsahlleqgibvk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Spare.SpareSquares"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
